@@ -1,10 +1,10 @@
 # IHA_parameters
-Indicators of hydrological alteration calculated in Tesfalem et al. (2023, J.hydrol; Reg studies) The 32 IHA parameters describe the whole range of ecologically significant aspects of the flow regime, such as magnitude, frequency, timing, duration, and rate of change.
+Indicators of hydrological alteration calculated in Tesfalem et al. (2023, J.hydrol; Reg studies). The 32 IHA parameters describe the whole range of ecologically significant aspects of the flow regime, such as magnitude, frequency, timing, duration, and rate of change.
 
 This README file contains the description of those 32 IHA parameters utilized in the current study of Abraham et al. (2023).
 The 32 IHA parameters are adopted from Richter et al. (1996). They describe the whole range of ecologically significant aspects of the flow regime, such as magnitude, frequency, timing, duration, and rate of change.
 
-The 32 IHA parameters are grouped into five such as:
+The 32 IHA parameters are grouped into five categories:
     •	Group 1- monthly flow indices,
     •	Group 2 - extreme flow indices,
     •	Group 3 - timing indices,
@@ -17,7 +17,7 @@ IHA statistics groups and Hydrologic parameter (Short form)
 Group 1: Magnitude of monthly water condition
          Jan, Feb...Dec
 
-Group 2: Magnitude and duration of annual extreme water condition
+Group 2: Magnitude and duration of annual extreme water conditions
         1d_min
         1d_max
         3d_min
@@ -29,15 +29,15 @@ Group 2: Magnitude and duration of annual extreme water condition
         90d_min
         90d_max
 
-Group 3: Timing of annual extreme water condition
+Group 3: Timing of annual extreme water conditions
         Julian date of max Q
         Julian date of min Q
 
 Group 4: Frequency and duration of high and low pulses
-        high pulses count
-        low pulses count
-        high pulses duration
-        low pulses duration
+        high pulse count
+        low pulse count
+        high pulse duration
+        low pulse duration
 
 Group 5: Rate and frequency of water condition changes
         mean of all +ve diff
@@ -45,8 +45,8 @@ Group 5: Rate and frequency of water condition changes
         number of rise
         number of fall
 
-We provided a code to calculate all the above 32 IHA parameters in the MATLAB code. There are five MATLAB codes to calculate the five groups of IHA as Group1.mat, Group2.mat, Group3.mat, Group4.mat, Group5.mat. 
-In these codes we calculated the IHA parameters for one gauged catchment (#01 @Bilate) using streamflow time series data in the historical period (1995-2007).
+We provided a code to calculate all the above 32 IHA parameters in the MATLAB code. There are five MATLAB codes to calculate the five groups of IHA, as Group1.mat, Group2.mat, Group3.mat, Group4.mat, Group5.mat. 
+In these codes, we calculated the IHA parameters for one gauged catchment (#01 @Bilate) using streamflow time series data in the historical period (1995-2007).
 
 language: Matlab
 
@@ -57,5 +57,7 @@ included files:
 
 Reference
 
-Abraham, T., Liu, Y., Tekleab, S., Hartmann, A., 2023. Climate change potentially induces ecological change in the Ethiopian Rift Valley Lakes Basin. J. Hydrol. Reg. Stud. 50, 101543. https://doi.org/10.1016/j.ejrh.2023.101543.
-Richter, B.D., Baumgartner, J. V., Powell, J., Braun, D.P., 1996. A Method for Assessing Hydrologic Alteration within Ecosystems. Conserv. Biol. 10, 1163–1174. https://doi.org/10.1046/j.1523-1739.1996.10041163.x
+1) Abraham, T., Liu, Y., Tekleab, S., Hartmann, A., 2023. Climate change potentially induces ecological change in the Ethiopian Rift Valley Lakes Basin. J. Hydrol. Reg. Stud. 50, 101543. https://doi.org/10.1016/j.ejrh.2023.101543.
+
+
+2) Richter, B.D., Baumgartner, J. V., Powell, J., Braun, D.P., 1996. A Method for Assessing Hydrologic Alteration within Ecosystems. Conserv. Biol. 10, 1163–1174. https://doi.org/10.1046/j.1523-1739.1996.10041163.x
