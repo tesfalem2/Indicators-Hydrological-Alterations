@@ -57,5 +57,5 @@ included files:
 
 Reference
 
-Abraham, T., Liu, Y., Tekleab, S., Hartmann, A., 2023. Climate change potentially induces ecological change in the Ethiopian Rift Valley Lakes Basin. Journal of hydrol; regional studies.
+Abraham, T., Liu, Y., Tekleab, S., Hartmann, A., 2023. Climate change potentially induces ecological change in the Ethiopian Rift Valley Lakes Basin. J. Hydrol. Reg. Stud. 50, 101543. https://doi.org/10.1016/j.ejrh.2023.101543.
 Richter, B.D., Baumgartner, J. V., Powell, J., Braun, D.P., 1996. A Method for Assessing Hydrologic Alteration within Ecosystems. Conserv. Biol. 10, 1163–1174. https://doi.org/10.1046/j.1523-1739.1996.10041163.x
